@@ -1,0 +1,105 @@
+
+
+
+
+
+class Area{
+    public static void main(String[]args){
+
+        scanner.scan=new scanner(system.in);
+
+        System.out.println("Enter number R:");
+
+        double r=scan.nextdouble ();
+
+        double P=3.14;
+
+        double area=p*r*r;
+
+        system.out.println("the area of circle:"+Area);
+
+    }
+
+}
+class AreaCircle{
+
+    public static void main(String args[]){
+
+        double rad;
+
+        final double PI=3.12;
+
+        rad=10.25;
+
+        double area=PI*rad*rad;
+
+        System.out.print("\n Area of Circle is="+area);
+
+        
+    }
+
+}
+class AreaTriangle{
+
+    public static void main(String args[])
+    {
+
+        double  area,a,b,c,s;
+
+        a=3;
+
+        b=4;
+
+        c=5;
+
+        s=(a+b+c)/2;
+
+        area=Math.sqrt(s*(s-a)*(s-b)*(s-c));
+
+        System.out.println("Area of Triangle is="+area);
+
+    }
+
+}
+public class SimpleConversion{
+
+    public static void main(String args[]){
+
+        double n=86.89;
+
+        int a=(int)n;
+
+        double p=(n-a)*100;
+
+        System.out.println("RS:"+a);
+
+        System.out.println("paise :"+(int)p);
+
+    }
+
+}
+class CompIntrest{
+
+    public static void main(String args[]){
+
+        double a,p,r,n,ci;
+
+        p=1000;
+ 
+        r=50;
+
+        n=12;
+
+        a=p*Math.pow((1+(r/100.0)),n);
+
+        ci=a-p;
+
+        System.out.println("Amount="+a);
+
+        System.out.println("compound intrest="+ci);
+
+        
+    }
+
+}
+
